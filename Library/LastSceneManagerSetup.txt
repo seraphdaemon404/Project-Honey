@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/notsurewhattonamethis.unity
+- path: Assets/ForestScene.unity
   isLoaded: 1
   isActive: 1
