@@ -13,6 +13,7 @@ ModelImporter:
     400006: Light
     2000000: Camera
     2100000: Material.002
+    2100002: compass1
     2300000: Cube.002
     2300002: //RootNode
     3300000: Cube.002
