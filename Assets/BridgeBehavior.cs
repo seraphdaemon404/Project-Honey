@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class BridgeBehavior : MonoBehaviour
 {
-    // Start is called before the first frame update
+    AudioSource BridgeFalling;
+
     void Start()
     {
-
-       // transform.Rotate(0,0,360);
+        BridgeFalling = GetComponent<AudioSource>();
     }
     IEnumerator RotateMe(Vector3 byAngles, float inTime)
     {
@@ -24,7 +24,9 @@ public class BridgeBehavior : MonoBehaviour
     {
         if (Input.GetKeyDown("e"))
         {
+            
             StartCoroutine(RotateMe(Vector3.forward * 90, 0.8f));
+            BridgeFalling.Play();
         }
         if (Input.GetKeyDown("q"))
         {
