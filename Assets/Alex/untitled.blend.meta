@@ -8,26 +8,60 @@ ModelImporter:
     100004: Cylinder
     100006: Light
     100008: //RootNode
+    100010: Cube.001
+    100012: Cube.002
+    100014: Empty
     400000: Camera
     400002: Cube
     400004: Cylinder
     400006: Light
     400008: //RootNode
+    400010: Cube.001
+    400012: Cube.002
+    400014: Empty
     2000000: Camera
     2100000: Material
     2100002: No Name
     2300000: Cube
     2300002: Cylinder
+    2300004: Cube.001
+    2300006: Cube.002
     3300000: Cube
     3300002: Cylinder
+    3300004: Cube.001
+    3300006: Cube.002
     4300000: Cube
     4300002: Cylinder
+    4300004: Cube.001
+    4300006: Cube.002
     7400000: Cube|Action.001
     7400002: Cube|CubeAction
     7400004: Cylinder|Action.001
     7400006: Cylinder|CubeAction
+    7400008: Cube|Cube.001Action
+    7400010: Cube|Cube.002Action
+    7400012: Cube|EmptyAction
+    7400014: Cylinder|Cube.001Action
+    7400016: Cylinder|Cube.002Action
+    7400018: Cylinder|EmptyAction
+    7400020: Empty|Action.001
+    7400022: Empty|Cube.001Action
+    7400024: Empty|Cube.002Action
+    7400026: Empty|CubeAction
+    7400028: Empty|EmptyAction
+    7400030: Cube.001|Action.001
+    7400032: Cube.001|Cube.001Action
+    7400034: Cube.001|Cube.002Action
+    7400036: Cube.001|CubeAction
+    7400038: Cube.001|EmptyAction
+    7400040: Cube.002|Action.001
+    7400042: Cube.002|Cube.001Action
+    7400044: Cube.002|Cube.002Action
+    7400046: Cube.002|CubeAction
+    7400048: Cube.002|EmptyAction
     9500000: //RootNode
     10800000: Light
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
