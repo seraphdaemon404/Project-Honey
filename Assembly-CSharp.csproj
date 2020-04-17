@@ -67,9 +67,13 @@
     <Compile Include="Assets\Alex\scipts\FPSInput.cs" />
     <Compile Include="Assets\Alex\scipts\MLook.cs" />
     <Compile Include="Assets\BridgeBehavior.cs" />
+    <Compile Include="Assets\C.cs" />
+    <Compile Include="Assets\E.cs" />
     <Compile Include="Assets\HolyShift\Scripts\CheckForStandardAssets.cs" />
     <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
     <Compile Include="Assets\MainMenu.cs" />
+    <Compile Include="Assets\R.cs" />
+    <Compile Include="Assets\v.cs" />
     <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
