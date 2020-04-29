@@ -28,6 +28,7 @@ public class R : MonoBehaviour
 
     void OnMouseDown()
     {
+        ++BridgeBehavior.count;
         displayInfo = true;
         playNoise();
     }

@@ -28,6 +28,7 @@ public class C : MonoBehaviour
 
     void OnMouseDown()
     {
+        ++BridgeBehavior.count;
         displayInfo = true;
         playNoise();
     }
