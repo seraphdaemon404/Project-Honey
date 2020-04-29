@@ -257,7 +257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '_ _ V _ _ N '
+  m_Text: '_ A _ _ _ N '
 --- !u!222 &206080915
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1275,7 +1275,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter quess...
+  m_Text: Enter guess...
 --- !u!222 &1256898550
 CanvasRenderer:
   m_ObjectHideFlags: 0

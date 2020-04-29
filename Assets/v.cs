@@ -11,13 +11,16 @@ public class v : MonoBehaviour
     public bool displayInfo;
     AudioSource congrats;
 
+    // Start is called before the first frame update
     void Start()
     {
         congrats = GetComponent<AudioSource>();
+        //playNoise();
         myText = GameObject.Find("Text").GetComponent<Text>();
-        myText.color = Color.clear;
+        //myText.color = Color.clear;
     }
 
+    // Update is called once per frame
     void Update()
     {
         FadeText();
@@ -29,6 +32,11 @@ public class v : MonoBehaviour
         displayInfo = true;
         playNoise();
     }
+
+    //void OnMouseExit()
+    //{
+    //   displayInfo = false;
+    //}
 
     void playNoise()
     {
