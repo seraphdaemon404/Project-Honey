@@ -17,7 +17,7 @@ public class v : MonoBehaviour
         congrats = GetComponent<AudioSource>();
         //playNoise();
         myText = GameObject.Find("Text").GetComponent<Text>();
-        myText.color = Color.clear;
+        //myText.color = Color.clear;
     }
 
     // Update is called once per frame
@@ -28,13 +28,14 @@ public class v : MonoBehaviour
 
     void OnMouseDown()
     {
+        ++BridgeBehavior.count;
         displayInfo = true;
         playNoise();
     }
-    
+
     //void OnMouseExit()
     //{
-     //   displayInfo = false;
+    //   displayInfo = false;
     //}
 
     void playNoise()

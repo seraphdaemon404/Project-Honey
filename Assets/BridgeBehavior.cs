@@ -1,36 +1,37 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BridgeBehavior : MonoBehaviour
 {
     AudioSource BridgeFalling;
-
+    public static int count;
+    public bool stop =true;
+    public static bool fall = false;
+    public GameObject bridgeStop;
     void Start()
     {
         BridgeFalling = GetComponent<AudioSource>();
     }
-    IEnumerator RotateMe(Vector3 byAngles, float inTime)
-    {
-        var fromAngle = transform.rotation;
-        var toAngle = Quaternion.Euler(transform.eulerAngles + byAngles);
-        for (var t = 0f; t < 1; t += Time.deltaTime / inTime)
-        {
-            transform.rotation = Quaternion.Slerp(fromAngle, toAngle, t);
-            yield return null;
-        }
-    }
+
     void Update()
     {
-        if (Input.GetKeyDown("e"))
-        {
-            
-            StartCoroutine(RotateMe(Vector3.forward * 90, 0.8f));
-            BridgeFalling.Play();
+        if (count == 4 && stop==true){
+            count = 0;
+            StartCoroutine(ExecuteAfterTime(2));
         }
-        if (Input.GetKeyDown("q"))
+        if (fall == true)
         {
-            StartCoroutine(RotateMe(Vector3.forward * -90, 0.8f));
+            transform.Rotate(0, 0, 90);
+            Destroy(bridgeStop);
+            fall = false;
         }
+    }
+
+    IEnumerator ExecuteAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
