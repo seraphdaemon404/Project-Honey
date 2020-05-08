@@ -437,12 +437,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You move using the WASD keys. W and S are used for forward and backward
-    motions while A and D are used for right and left motion. In order to pick up
-    objects the player will have to move the bear over the object. \n\nThroughout
-    this game you must complete two different puzzles in order to help the bear find
-    his family. The puzzles can be anywhere in the game environment. It is up to the
-    player to find and solve them\r\n"
+  m_Text: "Move the camera using the mouse and the charatcer using the arrow keys.
+    In order to \"pick up\" objects the player will have to move the bear to the object
+    and click on it. \n\nThroughout this game you must complete two different puzzles
+    in order to help the bear find his family. The puzzles can be anywhere in the
+    game environment. It is up to the player to find and solve them\r.\n"
 --- !u!222 &98432138
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2072,9 +2071,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Harper Wavra
+  m_Text: 'Game created for CSCI-448 at the University of North Dakota by Alex Nelson
+    and Harper Wavra.
 
-    Alex Nelson
 
 '
 --- !u!222 &1636968410
