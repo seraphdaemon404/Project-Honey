@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Unscramble.unity
     guid: ab3f6213a682494479067d94fc66aafc
+  - enabled: 1
+    path: Assets/end.unity
+    guid: 6f29b18b47c398e49beaf90c61e341a5
   m_configObjects: {}
